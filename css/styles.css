@@ -1,0 +1,90 @@
+:root {
+  --mainColor: #0c102a;
+  --secondaryColor: #f12e45;
+}
+/*  Start sign up title  */
+
+.sign-up-title {
+  /* Color */
+  background-color: var(--mainColor);
+  color: white;
+  /* Dimension  */
+  padding: 20px 30px;
+  margin-bottom: 0;
+}
+.sign-up-title span {
+  /* Color */
+  color: var(--secondaryColor);
+}
+.sign-up .sign-up-image {
+  background-image: url("../img/testimonial-lorraines.jpg");
+  background-position: center;
+  height: 930px;
+}
+/*  End  sign up title  */
+
+/* Start sign up info*/
+
+.sing-up-info h2 {
+  /* Dimension  */
+  padding-top: 20px;
+}
+.sing-up-info > p,
+form p,
+.creat-newaccount p,
+.signup-with-account p {
+  /* color  */
+  color: #a6a9ad;
+}
+.sing-up-info .sign-up-with-facebook {
+  /* Dimension */
+  display: inline-block;
+  width: 300px;
+  padding: 20px 20px;
+  margin: 10px auto 10px;
+  /* Color */
+  text-decoration: none;
+  background-color: #4460a1;
+  color: white;
+  /* Font */
+  font-weight: bold;
+}
+form input {
+  padding: 30px !important;
+}
+form .sign-up-with-email {
+  /* Dimension */
+  display: inline-block;
+  width: 300px;
+  padding: 20px 20px;
+  margin: 10px auto 10px;
+  text-decoration: none;
+  /* Color */
+  text-decoration: none;
+  background-color: var(--secondaryColor);
+  color: white;
+  /* Font */
+  font-weight: bold;
+}
+.signup-with-account a {
+  /* Dimension */
+  display: inline-block;
+  width: 300px;
+  padding: 20px 20px;
+  margin: 10px auto 10px;
+  text-decoration: none;
+  /* Color */
+  text-decoration: none;
+  border: 1px solid var(--secondaryColor);
+  background-color: transparent;
+  color: var(--secondaryColor);
+  /* Font */
+  font-weight: bold;
+}
+/* End  sign up info*/
+
+@media screen and (max-width: 576px) {
+  .sign-up {
+    display: none;
+  }
+}
