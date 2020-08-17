@@ -17,7 +17,7 @@
   color: var(--secondaryColor);
 }
 .sign-up .sign-up-image {
-  background-image: url("../img/testimonial-lorraines.jpg");
+  background-image: url("https://images.unsplash.com/photo-1597296392998-57f2865c6f88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80");
   background-position: center;
   height: 930px;
 }
